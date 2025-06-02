@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "MONGODB_URI": "@mongodb_uri",
+    "MONGODB_URI_TRADESMEN": "@mongodb_uri_tradesmen",
+    "MONGODB_URI_CUSTOMERS": "@mongodb_uri_customers",
+    "JWT_SECRET": "@jwt_secret"
+  }
+} 
